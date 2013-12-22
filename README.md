@@ -83,7 +83,7 @@ brite.display("mainView", "#mainContainer");
 
 ##xName.tmpl
 
-<img src="/jprivillaso/DevelopmentWithBriteJs/raw/master/templateSample.png" title="Template Sample" style="max-width:100%;">
+<img src="templateSample.png" title="Template Sample" style="max-width:100%;">
 
 <pre>
 	<script id="tmpl-mainView" type="text/html">
