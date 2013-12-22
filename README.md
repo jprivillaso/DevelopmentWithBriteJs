@@ -1,5 +1,5 @@
-DevelopmentWithBriteJs
-======================
+Templating Development With BriteJs
+===================================
 
 Templating is a way of develop web applications very used these days. One of the advatages that i found is that you
 can divide your interfaces and develop them in a better and more organized way. There are lots of frameworks that
@@ -29,10 +29,10 @@ The order you will include your files in your index.html will be:
 After that the structure will be very simple. Brite use a default source packages:
 
 - Source
-- Source/js/
-- Source/css/
-- Source/tmpl/
-- Source/index.html
+	- js/
+	- css/
+	- tmpl/
+	- index.html
 
 NOTE: Js, Css, and Tmpl will be folders
 
@@ -49,6 +49,7 @@ Note that you can also disable the loading of the template.
 Now, we will see what we will have in each archive.
 
 ##Main.js
+
 There will be some archives that it is mandatory to have. This main.js is one of them, and this is the file where you will configure your application with brite, and also will register the templetes that you will use.
 
 <pre>
@@ -79,4 +80,14 @@ brite.viewDefaultConfig.loadCss = false;
 
 brite.display("mainView", "#mainContainer");
 </pre>
+
+##xName.tmpl
+
+<img src="/jprivillaso/DevelopmentWithBriteJs/raw/master/templateSample.png" title="Template Sample" style="max-width:100%;">
+
+<pre>
+	<script id="tmpl-mainView" type="text/html">
+</script>	
+</pre>
+
 
