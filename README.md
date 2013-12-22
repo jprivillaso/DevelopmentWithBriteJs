@@ -17,13 +17,10 @@ To use briteJs you will have two dependencies:
 You will include these libraries in your index.html, and it is also recommended to use Bootstrap 3 that is almost in my
 opinion one of the most powerful front-end libraries well known these days.
 
-<pre>
-<!-- Styles -->
-<link rel="stylesheet" type="text/css" href="libraries/bootstrap3/css/bootstrap.min.css"/>
+<pre><!-- Styles --><link rel="stylesheet" type="text/css" href="libraries/bootstrap3/css/bootstrap.min.css"/></pre>
 <link rel="stylesheet" type="text/css" href="css/index.css"/>
 <!-- Scripts -->
 <script type="text/javascript" src="libraries/jquery/jquery-1.10.2.js"></script>
 <script type="text/javascript" src="libraries/brite/handlebars-1.0.rc.1.js"></script>
 <script type="text/javascript" src="libraries/brite/brite-snapshot.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-</pre>
