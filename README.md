@@ -17,24 +17,43 @@ To use briteJs you will have two dependencies:
 You will include these libraries in your index.html, and it is also recommended to use Bootstrap 3 that is almost in my
 opinion one of the most powerful front-end libraries well known these days.
 
+The order you will include your files in your index.html will be:
+
+- Bootstrap (If included)
+- Your css files
+- Jquery
+- Handlebars
+- Brite
+- Your Scripts
+
+After that the structure will be very simple. Brite use a default source packages:
+
+- Source
+- Source/js/
+- Source/css/
+- Source/tmpl/
+- Source/index.html
+
+NOTE: Js, Css, and Tmpl will be folders
+
+In briteJs you will have one js file, one css file and one tmpl file. This is default, but if you want for example just
+one css file for all the templates you can also do that by typing the following.
+
 <pre>
-Handlebars.templates = Handlebars.templates || {};
+	brite.viewDefaultConfig.loadTmpl = true;	
+	brite.viewDefaultConfig.loadCss = false;
+</pre>
 
-function render(templateName, data) {
-	
-	var tmpl = Handlebars.templates[templateName];
-	
-	if (!tmpl) {
-		
-		tmpl = Handlebars.compile($("#" + templateName).html());
-		Handlebars.templates[templateName] = tmpl;
-		
-	}
-	return tmpl(data);
-}
+Note that you can also disable the loading of the template.
 
-brite.viewDefaultConfig.loadTmpl = true;	
-brite.viewDefaultConfig.loadCss = false;
 
-brite.display("mainView", "#mainContainer");
+
+ 
+
+
+
+
+
+<pre>
+
 </pre>
