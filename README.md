@@ -19,10 +19,10 @@ opinion one of the most powerful front-end libraries well known these days.
 
 
 <code><!-- Styles -->
-<code><link rel="stylesheet" type="text/css" href="libraries/bootstrap3/css/bootstrap.min.css"/>
-<code><link rel="stylesheet" type="text/css" href="css/index.css"/>
-<code><!-- Scripts -->
-<code><script type="text/javascript" src="libraries/jquery/jquery-1.10.2.js"></script>
-<code><script type="text/javascript" src="libraries/brite/handlebars-1.0.rc.1.js"></script>
-<code><script type="text/javascript" src="libraries/brite/brite-snapshot.min.js"></script>
-<code><script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="libraries/bootstrap3/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<!-- Scripts -->
+<script type="text/javascript" src="libraries/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="libraries/brite/handlebars-1.0.rc.1.js"></script>
+<script type="text/javascript" src="libraries/brite/brite-snapshot.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script></code>
