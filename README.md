@@ -46,14 +46,37 @@ one css file for all the templates you can also do that by typing the following.
 
 Note that you can also disable the loading of the template.
 
+Now, we will see what we will have in each archive.
 
-
- 
-
-
-
-
+##Main.js
+There will be some archives that it is mandatory to have. This main.js is one of them, and this is the file where you will configure your application with brite, and also will register the templetes that you will use.
 
 <pre>
 
+// Managing the template loading
+Handlebars.templates = Handlebars.templates || {};
+
+var render = fuction(templateName, data) {
+	
+	var tmpl = Handlebars.templates[templateName];
+	
+	if (!tmpl) {
+		
+		tmpl = Handlebars.compile($("#" + templateName).html());
+		Handlebars.templates[templateName] = tmpl;
+		
+	}
+	return tmpl(data);
+}
+
+brite.viewDefaultConfig.loadTmpl = true;	
+brite.viewDefaultConfig.loadCss = false;
+
+/* Here you will display the template. The parameters are: 
+* 1. The name of the view
+* 2. The element where you will introduce the other template (It should be an ID because its supposed to be unique)
+*/
+
+brite.display("mainView", "#mainContainer");
 </pre>
+
