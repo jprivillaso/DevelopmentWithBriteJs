@@ -41,7 +41,7 @@ NOTE: Js, Css, and Tmpl will be folders
 In briteJs you will have one js file, one css file and one tmpl file. This is default, but if you want for example just
 one css file for all the templates you can also do that by typing the following.
 
-<pre>
+<pre>sup
 	brite.viewDefaultConfig.loadTmpl = true;	
 	brite.viewDefaultConfig.loadCss = false;
 </pre>
@@ -77,7 +77,7 @@ brite.viewDefaultConfig.loadCss = false;
 
 /* Here you will display the template. The parameters are: 
 * 1. The name of the view
-* 2. The element where you will introduce the other template (It should be an ID because its supposed to be unique)
+* 2. The element where you will introduce the other template (It should be an ID because it's supposed to be unique)
 */
 
 brite.display("mainView", "#mainContainer");
