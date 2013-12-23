@@ -5,13 +5,9 @@ Powering online learning.
 Web Development using templates with BriteJs
 ============================================
 
-Templating is a way of develop web applications very used these days. One of the advatages that i found is that you
-can divide your interfaces and develop them in a better and more organized way. There are lots of frameworks that
-use this modality, and in this case i chose BriteJs.
+The use of templates has been increasing these days, becoming more popular and with it many frameworks have came out with interesting solutions. One of the advatages that i found is that you can divide your interfaces and develop them in a better and more organized way. There are lots of frameworks that use this modality, and in this case i chose BriteJs.
 
-BriteJs is an MVC framework for templating and it is not very common but i found it really powerful. We will see the main funcionalities and basic 
-structure that you will require in your code. The complete code is found in this repository, you can include it to your
-project easily, all the libraries needed are in the folder /briteApp/libraries.
+BriteJs is an MVC framework for templating and it is not very common but i found it really powerful. We will see the main funcionalities and basic structure that you will require in your code. The complete code is found in this repository, you can include it to your project easily, all the libraries needed are in the folder /briteApp/libraries.
 
 To use briteJs you will have two dependencies:
 
