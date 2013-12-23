@@ -1,5 +1,5 @@
-Templating Development With BriteJs
-===================================
+Web Development using templates with BriteJs
+============================================
 
 Templating is a way of develop web applications very used these days. One of the advatages that i found is that you
 can divide your interfaces and develop them in a better and more organized way. There are lots of frameworks that
