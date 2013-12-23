@@ -1,3 +1,7 @@
+# SITEPOINT	
+This is an article made for sitepoint.
+Powering online learning.
+
 Web Development using templates with BriteJs
 ============================================
 
