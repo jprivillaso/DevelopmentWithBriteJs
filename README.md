@@ -158,7 +158,7 @@ But if use it like this:
 	this.$el.find('#container');
 </pre>
 
-It will find it just the nummber of times the element appears in THIS template.
+It will find it just the number of times the element appears in THIS template.
 
 Finally, as you can see, brite notations are really simple and clean, creating a very readable js code, separating the files and templates in a beautiful way, and personally i can recommend it a lot.
 
