@@ -130,7 +130,7 @@ This is the basic structure of your scritp, where you will do all your functiona
 	 */
         events: {
         	"click; #myElementId",
-		"change; .myElementClass"
+			"change; .myElementClass"
         }
     });
 
