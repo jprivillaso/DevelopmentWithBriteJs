@@ -42,10 +42,10 @@ After that the structure will be very simple. Brite use a default source package
 
 NOTE: Js, Css, and Tmpl will be folders
 
-In briteJs you will have one js file, one css file and one tmpl file. This is default, but if you want for example just
+In briteJs you will have one js file, one css file for each tmpl file. This is default, but if you want for example just
 one css file for all the templates you can also do that by typing the following.
 
-<pre>sup
+<pre>
 	brite.viewDefaultConfig.loadTmpl = true;	
 	brite.viewDefaultConfig.loadCss = false;
 </pre>
