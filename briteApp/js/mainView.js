@@ -7,38 +7,35 @@
         },
 
         /*
-         * will be called after the create and before the postDisplay.
-         * this.$element is the jQuery wrapped HTML Element for this view instance
-         * this.id is a unique id for this view instance
+         * will be called after create
          */
         init: function(data, config){
         },
 
         /*
-         * will be called after the INIT and after
-         * the element has been added to the DOM.
-         * Good place to do binding here.
-         * same object, so same properties (i.e. this.$element, this.id).
+         * will be called after init 
          */
         postDisplay: function(data, config){
         	
         },
 
         /*
-         * will be called when the view will be removed.
-         * Note: make sure to use $.fn.bRemove() or $.fn.bEmpty() to trigger this.
+         * will be called when the view is removed.
          */
         destroy: function() {
 
         },
-
+        
+        /*
+        * Binding events. Accept binding jquery methods
+        */
         events: {
         	
         },
 
-        // bind DOM events at the Document level same key format as .events
-        // Note: those event will be automatically name spaced with the view id
-        //       and cleaned up on view destroy
+        /* 
+        * bind DOM events at the Document level same key format as .events
+        */
         docEvents: {
             
         }
