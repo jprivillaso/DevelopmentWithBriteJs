@@ -1,5 +1,5 @@
-# SITEPOINT	
-This is an article made for sitepoint.
+# Free Software
+Feel free to use this code.
 Powering online learning.
 
 Web Development using templates with BriteJs
