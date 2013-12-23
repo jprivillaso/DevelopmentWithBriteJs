@@ -150,7 +150,7 @@ If i use it as follows, it could be found many times in the interface.
 
 <pre>
 	$('#container');
-</pre
+</pre>
 
 But if use it like this:
 
